@@ -17,10 +17,14 @@ body {
 
 .location, .temperature {
     height: 30vh;
-    width: 50%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+}
+
+.location-timezone {
+    width: 50%;
 }
 
 .temperature {
@@ -29,7 +33,8 @@ body {
 
 .degree-section {
     display: flex;
-    align-items: cener;
+    align-items: center;
+        margin-bottom: 20px;
 }
 
 .degree-section span {
@@ -41,6 +46,14 @@ body {
     font-size: 40px;
 }
 
-#weather-icon {
-    margin-left: 40px;
+
+@media (max-width: 600px) {
+    .location {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .location-timezone {
+        margin-bottom: 30px;
+    }
 }
