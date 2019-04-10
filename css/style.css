@@ -33,10 +33,14 @@ body {
 }
 
 .degree-section span {
-    margin: 10px;
-    font-size: 30px;
+    margin-left: 10px;
+    font-size: 40px;
 }
 
 .degree-section h2 {
     font-size: 40px;
+}
+
+#weather-icon {
+    margin-left: 40px;
 }
